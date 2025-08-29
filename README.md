@@ -8,3 +8,5 @@ docker compose -f infra/compose.yaml down
 npm run dev
 
 npm run test:watch
+
+npm run test:watch -- migrations
