@@ -17,3 +17,6 @@ https://vercel.com/rodrigo-vitals-projects/curso-dev
 
 
 https://console.neon.tech/app/projects/jolly-cake-34607751?branchId=br-lively-base-adoxc9tb
+
+
+https://curso-dev-ten-zeta.vercel.app/api/v1/status
