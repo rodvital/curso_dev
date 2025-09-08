@@ -22,3 +22,13 @@ https://console.neon.tech/app/projects/jolly-cake-34607751?branchId=br-lively-ba
 https://curso-dev-ten-zeta.vercel.app/api/v1/status
 
 alteração realizada.
+
+
+curl -s -X GET https://curso-dev-git-fix-migration-endpoint-rodrigo-vitals-projects.vercel.app/api/v1/migrations | python3 -m json.tool
+
+curl -s -X POST https://curso-dev-git-fix-migration-endpoint-rodrigo-vitals-projects.vercel.app/api/v1/migrations | python3 -m json.tool
+
+curl -s -X DELETE https://curso-dev-git-fix-migration-endpoint-rodrigo-vitals-projects.vercel.app/api/v1/migrations | python3 -m json.tool
+
+
+curl -s -X GET https://curso-dev-git-fix-migration-endpoint-rodrigo-vitals-projects.vercel.app/api/v1/status | python3 -m json.tool
