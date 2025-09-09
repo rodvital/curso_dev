@@ -28,8 +28,10 @@ curl -s -X GET https://curso-dev-git-fix-migration-endpoint-rodrigo-vitals-proje
 
 curl -s -X POST https://curso-dev-git-fix-migration-endpoint-rodrigo-vitals-projects.vercel.app/api/v1/migrations | python3 -m json.tool
 
-
 curl -s -X DELETE https://curso-dev-git-fix-migration-endpoint-rodrigo-vitals-projects.vercel.app/api/v1/migrations | python3 -m json.tool
 
+curl -s -X PUT https://curso-dev-git-fix-migration-endpoint-rodrigo-vitals-projects.vercel.app/api/v1/migrations | python3 -m json.tool
+
+curl -s -X get https://curso-dev-git-fix-migration-endpoint-rodrigo-vitals-projects.vercel.app/api/v1/status
 
 curl -s -X GET https://curso-dev-git-fix-migration-endpoint-rodrigo-vitals-projects.vercel.app/api/v1/status | python3 -m json.tool
