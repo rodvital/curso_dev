@@ -21,6 +21,10 @@ https://console.neon.tech/app/projects/jolly-cake-34607751?branchId=br-lively-ba
 
 https://curso-dev-ten-zeta.vercel.app/api/v1/status
 
+
+
+# Fazend CURL via código:
+
 alteração realizada.
 
 
@@ -35,3 +39,10 @@ curl -s -X PUT https://curso-dev-git-fix-migration-endpoint-rodrigo-vitals-proje
 curl -s -X get https://curso-dev-git-fix-migration-endpoint-rodrigo-vitals-projects.vercel.app/api/v1/status
 
 curl -s -X GET https://curso-dev-git-fix-migration-endpoint-rodrigo-vitals-projects.vercel.app/api/v1/status | python3 -m json.tool
+
+
+curl -s https://curso-dev-ten-zeta.vercel.app/api/v1/status | jq
+
+curl -s -X PUT https://curso-dev-ten-zeta.vercel.app/api/v1/migrations | jq
+
+watch 'curl -s https://curso-dev-ten-zeta.vercel.app/api/v1/status | jq'
