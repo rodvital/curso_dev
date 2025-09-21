@@ -1,48 +1,15 @@
-# curso_dev
+## curso.dev — Filipe Deschamps
 
-npm install
+Meu repositório do **curso.dev** é uma formação focada em desenvolvimento de software, conduzida por Filipe Deschamps.
 
-docker compose -f infra/compose.yaml up -d
-docker compose -f infra/compose.yaml down
-
-npm run dev
-
-npm run test:watch
-
-npm run test:watch -- migrations
-
-# Link
-
-https://vercel.com/rodrigo-vitals-projects/curso-dev
+### Objetivo
+- Desenvolver todo o conteúdo do curso, com isso criando este projeto no github para isso.
 
 
-https://console.neon.tech/app/projects/jolly-cake-34607751?branchId=br-lively-base-adoxc9tb
+### Tecnologias
+- Docker
+- Deploy em Vercel
+- Banco na Neon
+- NodeJS
+- NextJS
 
-
-https://curso-dev-ten-zeta.vercel.app/api/v1/status
-
-
-
-# Fazend CURL via código:
-
-alteração realizada.
-
-
-curl -s -X GET https://curso-dev-git-fix-migration-endpoint-rodrigo-vitals-projects.vercel.app/api/v1/migrations | python3 -m json.tool
-
-curl -s -X POST https://curso-dev-git-fix-migration-endpoint-rodrigo-vitals-projects.vercel.app/api/v1/migrations | python3 -m json.tool
-
-curl -s -X DELETE https://curso-dev-git-fix-migration-endpoint-rodrigo-vitals-projects.vercel.app/api/v1/migrations | python3 -m json.tool
-
-curl -s -X PUT https://curso-dev-git-fix-migration-endpoint-rodrigo-vitals-projects.vercel.app/api/v1/migrations | python3 -m json.tool
-
-curl -s -X get https://curso-dev-git-fix-migration-endpoint-rodrigo-vitals-projects.vercel.app/api/v1/status
-
-curl -s -X GET https://curso-dev-git-fix-migration-endpoint-rodrigo-vitals-projects.vercel.app/api/v1/status | python3 -m json.tool
-
-
-curl -s https://curso-dev-ten-zeta.vercel.app/api/v1/status | jq
-
-curl -s -X PUT https://curso-dev-ten-zeta.vercel.app/api/v1/migrations | jq
-
-watch 'curl -s https://curso-dev-ten-zeta.vercel.app/api/v1/status | jq'
